@@ -1,0 +1,41 @@
+body{
+    margin: 0; 
+}
+
+.thumbnail{
+    
+    width: 400px;
+    flex: 1;
+}
+
+
+header{
+    border: solid black 2px;
+    background-color: blue;
+    height: 30px;
+}
+
+.content{
+    border: solid red 2px;
+    display: flex;
+    margin: 20px 80px;
+    gap: 20px;
+}
+
+section{
+    border: solid blue 2px;
+    flex: 2;
+    display: flex;
+}
+
+aside{
+    border: solid blue 2px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#iframe{
+    flex: 1;
+    flex-grow: 1;
+}
